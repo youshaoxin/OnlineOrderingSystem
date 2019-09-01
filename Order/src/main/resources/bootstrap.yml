@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: order   #将name和active整合起来作为名称：order-dev，去配置中心中查找配置文件
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:8762    #指定配置中心的位置
+      fail-fast: true

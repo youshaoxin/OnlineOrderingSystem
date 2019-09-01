@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="menu" />
+        <module name="configServer" />
+        <module name="Order" />
+        <module name="Users" />
+        <module name="EurekaServer" />
+        <module name="Account" />
+        <module name="client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="oness" target="1.8" />
+      <module name="User" target="1.8" />
+      <module name="user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Account" options="-parameters" />
+      <module name="EurekaServer" options="-parameters" />
+      <module name="OnlineOrderingSystem" options="-parameters" />
+      <module name="Order" options="-parameters" />
+      <module name="User" options="-parameters" />
+      <module name="Users" options="-parameters" />
+      <module name="client" options="-parameters" />
+      <module name="configServer" options="-parameters" />
+      <module name="menu" options="-parameters" />
+      <module name="oness" options="-parameters" />
+      <module name="user" options="-parameters" />
+    </option>
+  </component>
+</project>
